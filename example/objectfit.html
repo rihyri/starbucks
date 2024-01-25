@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object-fit</title>
+    <style>
+        div {
+            width: 400px;
+            border: 2px solid blue;
+        }
+
+        img {
+         width: 300px; 
+         height: 300px; 
+         border: 1px solid red;}
+
+        .fill {object-fit:fill;}
+        .contain {object-fit: contain;}
+        .cover {object-fit: cover;}
+        .none {object-fit: none;}
+        .scale-down {object-fit:scale-down;}
+
+    </style>
+</head>
+<body>
+    <h3>object-fit 적용안함</h3>
+    <div>
+        <img src="img/2024_m_newyear_top_drink1.png" class="" alt="">
+    </div>
+
+    <h3>object-fit: fill</h3>
+    <div>
+        <img src="img/2024_m_newyear_top_drink1.png" class="fill" alt="">
+    </div>
+
+    <h3>object-fit: contain</h3>
+    <div>
+        <img src="img/2024_m_newyear_top_drink1.png" class="contain" alt="">
+    </div>
+
+    <h3>object-fit: cover</h3>
+    <div>
+        <img src="img/2024_m_newyear_top_drink1.png" class="cover" alt="">
+    </div>
+
+    <h3>object-fit: none</h3>
+    <div>
+        <img src="img/2024_m_newyear_top_drink1.png" class="none" alt="">
+    </div>
+
+    <h3>object-fit: scale-down</h3>
+    <div>
+        <img src="img/2024_m_newyear_top_drink1.png" class="scale-down" alt="">
+    </div>
+
+</body>
+</html>
